@@ -1,0 +1,69 @@
+{
+  "name": "jasonhch-plugins",
+  "owner": {
+    "name": "Jason Hsieh",
+    "email": "jason71319jason@gmail.com"
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code plugins for code review, predictive agent workflows, and development harness tooling.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "code-review-annotator",
+      "source": {
+        "source": "github",
+        "repo": "jason-hchsieh/code-review-annotator"
+      },
+      "description": "Inline code review with MCP integration — add comments in the browser via SSH port forward, let Claude Code read and fix them via MCP tools.",
+      "version": "0.1.0",
+      "author": {
+        "name": "jasonhch"
+      },
+      "homepage": "https://github.com/jason-hchsieh/code-review-annotator",
+      "repository": "https://github.com/jason-hchsieh/code-review-annotator",
+      "category": "code-quality",
+      "keywords": ["code-review", "diff", "mcp", "git", "annotations"]
+    },
+    {
+      "name": "predictive-mind",
+      "source": {
+        "source": "github",
+        "repo": "jason-hchsieh/predictive-mind"
+      },
+      "description": "FEP/World-Models scaffolding for stable LLM coding agents: predict-before-act, inspectable belief state, and surprise-triggered reflection.",
+      "version": "0.1.1",
+      "author": {
+        "name": "predictive-mind contributors"
+      },
+      "homepage": "https://github.com/jason-hchsieh/predictive-mind",
+      "repository": "https://github.com/jason-hchsieh/predictive-mind",
+      "license": "MIT",
+      "category": "agent-workflow",
+      "keywords": [
+        "active-inference",
+        "free-energy-principle",
+        "world-models",
+        "agent-workflow",
+        "belief-state",
+        "prediction-error"
+      ]
+    },
+    {
+      "name": "harness-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "jason-hchsieh/harness"
+      },
+      "description": "Developer toolkit for auditing harness maturity (L0-L4), setting up AGENTS.md, configuring linters, hooks, CI, and skill creation workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "harness"
+      },
+      "homepage": "https://github.com/jason-hchsieh/harness",
+      "repository": "https://github.com/jason-hchsieh/harness",
+      "category": "developer-tools",
+      "keywords": ["harness", "agents", "ci", "linters", "skills", "workflow"]
+    }
+  ]
+}
